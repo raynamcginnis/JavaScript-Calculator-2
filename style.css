@@ -17,7 +17,7 @@ body {
 h1 {
     text-align: center;
     color: #4c2512;
-    padding: 25px;
+    padding: 10px;
 
 }
 
@@ -49,11 +49,12 @@ input type[range], #tip_input {
  #container {
   
     margin-top: 100px;
+    padding-bottom: 50px;
     opacity: 0.9;
  }
  label, input {
      display: inline-block;
-     width: 40%;
+     width: 45%;
  }
  div {
      line-height: 30px;

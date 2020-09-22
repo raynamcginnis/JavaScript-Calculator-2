@@ -7,7 +7,7 @@ body {
 
 #container {
     background: linear-gradient(-65deg, #4c2512, white);
-    width: 500px;
+    width: 600px;
     padding: 25px;
     border: 1px solid black;
     border-radius: 25px;
@@ -38,6 +38,40 @@ input type[range], #tip_input {
     background-color: #4c2512
 }
 
+span { 
+    color: #4c2512;
+    font-weight: bold;
+}
+
+/* The slider itself */
+.slider, #people {
+    -webkit-appearance: none;
+    height: 10px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider::-webkit-slider-thumb, #people::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+    background: #4c2512;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb, #people::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #4c2512;
+    cursor: pointer;
+  }
 /* media queries */
 @media(min-width: 700px) {
  body {
@@ -54,7 +88,7 @@ input type[range], #tip_input {
  }
  label, input {
      display: inline-block;
-     width: 45%;
+     width: 43%;
  }
  div {
      line-height: 30px;

@@ -41,7 +41,7 @@ input type[range], #tip_input {
 /* media queries */
 @media(min-width: 700px) {
  body {
-     width: 60%;
+     width: 65%;
      background: url(restaurant.jpg) no-repeat;
      background-size: cover;
      

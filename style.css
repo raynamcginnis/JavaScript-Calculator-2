@@ -1,0 +1,59 @@
+body {
+    background: white;
+    font-size: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#container {
+    background: linear-gradient(-65deg, #4c2512, white);
+    width: 500px;
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 1px 1px .5;
+}
+
+h1 {
+    text-align: center;
+    color: #4c2512;
+}
+
+div {
+    line-height: 24px;
+}
+
+input[type="text"] {
+    font-size: 18px;
+    text-align: center;
+}
+
+label, input {
+    width: 100%
+}
+
+input type[range], #tip_input {
+    background-color: #4c2512
+}
+
+/* media queries */
+@media(min-width: 700px) {
+ body {
+     width: 60%;
+     background: url(restaurant.jpg) no-repeat;
+     background-size: cover;
+     
+ }
+ #container {
+  
+    margin-top: 100px;
+    opacity: 0.9;
+ }
+ label, input {
+     display: inline-block;
+     width: 40%;
+ }
+ div {
+     line-height: 30px;
+ }
+}

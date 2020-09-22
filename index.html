@@ -14,29 +14,33 @@
 <hr>
 <div>
     <label>Total Bill:</label>
-    <input type="text" placeholder="Enter your total bill:" id="billtotal">
+    <input type="text" placeholder="Enter your total bill:" id="billTotal">
 </div>
 <div>
     <label>Tip:</label>
-    <input type="range" value="0" id="tip_input">
+    <input type="range" value="0" id="tipInput">
+    <span id="tipOutput"></span>
 </div>
 <div>
 <label>How Many People?</label>
 <input type="range" min="1" max="10" value="1" id="people">
+<span id="splitOutput"></span>
 </div>
 <hr>
 <div>
     <div>
 
-        <label>New Bill (per person):</label><span>0</span>
+        <label>New Bill (per person): </label><span id="newBill">$0</span>
 
     </div>
     <div>
-        <label>Tip Amount (per person):</label><span>0</span>
+        <label>Tip Amount (per person): </label><span id="newTip">$0</span>
     </div>
 </div>
 
 
- </div>   
+ </div>  
+
+ <script src="script.js"></script>
 </body>
 </html>
